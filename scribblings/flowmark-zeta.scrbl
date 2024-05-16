@@ -1,12 +1,12 @@
-#lang scribble/manual
-@require[@for-label[flowmark-zeta
-                    racket/base]]
+#lang scribble/book
 
 @title{Flowmark/ZeTA}
 @author{Zahktïn Làhm}
 
-@defmodule[flowmark-zeta]
 
+ZeTA is an implementation of the Flowmark programming language with a typesetting system built-in.
 
-ZeTA is an implementation of the Flowmark programming language with 
+@include-section["getting-started.scrbl"]
+@include-section["language-manual.scrbl"]
+@include-section["zeta-manual.scrbl"]
 
